@@ -9,10 +9,8 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        ZStack {
-            Color.red.frame(width: 200, height: 200)
-            Text("Your content")
-        }
+        LinearGradient(gradient: Gradient(colors: [.white, .black]), startPoint: .top, endPoint: .bottom)
+
     }
     
     struct ContentView_Previews: PreviewProvider {
